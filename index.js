@@ -31,22 +31,19 @@ function divide(a, b){
 function increment(a){
   return a += 1
 }
-function increment(a){
-  return a += 1
+
+function decrement(a){
+  return a -= 1
 }
-  
-//   it('decrement(n) decrements n and returns the result', function() {
-//     expect(decrement(a)).toEqual(a - 1)
-//   })
-// })
 
 
+function makeInt(a){
+  return parseInt(a, 10)
+}
 
-
-// describe('makeInt(n)', function() {
-//   it('parses n as an integer and returns the parsed integer', function() {
-//     expect(makeInt(a.toString())).toEqual(a)
-//   })
+unction makeInt(a){
+  return parseInt(a, 10)
+}
 
 //   it('assumes base 10', function() {
 //     expect(makeInt('0x2328')).toEqual(0)
